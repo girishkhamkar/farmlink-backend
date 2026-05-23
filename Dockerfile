@@ -9,3 +9,4 @@ WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "app.jar"]
+# force rebuild Sat May 23 22:50:57 IST 2026
